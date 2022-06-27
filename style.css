@@ -1,0 +1,1271 @@
+/*--
+Filename: custom.css
+Author: Carla Alcantara
+Date: June 23, 22;
+Index
+
+1- Geral
+2- Header
+3- Banner
+4- Botão Whatsapp
+5- 
+6- Footer*/
+
+/*Geral*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: 'Tangerine', serif;
+    overflow-x: hidden;
+}
+body h3
+{
+	color: #d2e301;
+	font-size: 40px;
+	border-radius: 25px;
+	height: 55px;
+}
+/*Header*/
+.menu{
+list-style:none;
+float:left;
+}
+.menu li{
+position:relative;
+float:left;
+}
+.menu li a{color:#d2e301; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+color:#000;
+}
+.menu li  ul{
+position:absolute;
+top:25px;
+left:0;
+border: 0;
+display:none;
+font-size: 16px;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+border:1px solid #c0c0c0;
+display:block;
+width:150px;
+}
+.nav-link img
+{
+	padding: 0 0 0 20px;
+}
+/*Banner*/
+#banner
+{
+	background-size: 100%;
+	background-image: url("banner-dogs-header2.jpg");
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 40%;
+}
+.patrocinio img
+{
+	padding: 0 0 0 20px;
+}
+/*Whatsapp flutuante*/
+.whatsapp-button {
+	position: fixed;
+	z-index: 100;
+	right: 15px; 
+	top: 140px;	
+}
+/*Filhotes disponíveis*/
+#filhotes p
+{
+	margin: 10px 0 10px 0;
+}
+#filhotes h4
+{
+	padding: 20px;
+	font-size: 22px;
+	color: #58585a;
+}
+#filhotes h5
+{
+	color: #58585a;
+	padding: 0 0;
+}
+#filhotes h6
+{
+	margin: 10px 0 20px 0;
+}
+.img-filhote
+{
+	width: 100%;
+	padding: 20px 0;
+}
+/*Ninhadas*/
+#ninhadas h2
+{
+	font-size: 16px;
+	color: #58585a;
+}
+#ninhadas h4
+{
+	height: 55px;
+	background: #fc4b81;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 25px;
+	margin: 10px 0 40px 0;
+	padding: 10px 0 0 0;
+	font-size: 30px;
+}
+#ninhadas h5
+{
+	color: #58585a;
+}
+#ninhadas h6
+{
+	margin-bottom: 40px;
+	color:  #58585a;
+}
+#ninhadas img
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#ninhadas-dogue img
+{
+	width: 100%;
+	padding: 0 0 10px 0;
+}
+#ninhadas-dogue h5
+{
+	color:  #58585a;
+}
+#ninhadas-dogue h6
+{
+	color: #58585a;
+	padding-bottom: 20px;
+}
+.versus
+	{
+	color: #58585a;
+	font-size: 100px;
+	font-weight: 500;
+	z-index: 2;
+	padding: 0 -100px 0 -100px;
+	margin: 40px 0 20px 0;
+}
+/*Sobre*/
+#sobre
+{
+	padding: 140px 0 10px 0;
+	margin: 10px 0 0 0;
+	color: #58585a;
+}
+#sobre p
+{
+	font-size: 19px;
+	color: #58585a;
+	line-height: 35px;
+}
+#sobre h5
+{
+	padding: 40px 0 10px 0;
+	font-size: 38px;
+}
+#sobre h6
+{
+	padding: 0 0 40px 0;
+	font-size: 20px;
+}
+#sobre img
+{
+	width: 85%;
+	padding bottom: 40px;
+	margin: 40px 0 10px 40px;
+}
+/*Palestras e cursos*/
+#palestraecursos
+{
+	padding: 60px 0 0 0;
+	color: #58585a;
+	line-height: 35px;
+}
+#palestraecursos p
+{
+	font-size: 19px;
+}
+#palestraecursos h4
+{
+	color: #ff7f50;
+	font-size: 45px;
+}
+/*Botão Ligue agora...*/
+#botao
+{
+	background: #ffffff;
+	margin: 100px 0 0 0;
+}
+#botao a
+{
+	padding: 10px 25px;
+	font-size: 30px;
+	display: inline-block;
+	background: #2ecc71;
+	color: #fff;
+	border-radius: 50px;
+}
+/*Padreadores*/
+#padreadores
+{
+	padding: 40px 0 10px 0;
+	margin: 40px 0 0 0;
+	color: #58585a;
+}
+#padreadores h2
+{
+	padding: 10px 0 -20px 0;
+	color: #58585a;
+}
+#padreadores h3
+{
+	margin: 0 0 40px 0;
+}
+.rottweiler
+{
+	margin-left: 50px;
+		-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.50);
+		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.50);
+		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.50);
+}
+.img-padread
+{
+	width: 100%;
+	margin: 40px 40px 0 0;
+
+}
+/*Matrizes*/
+#matrizes .coton-rott-dogue
+{
+	margin: 40px 40px 0 0;
+	width: 100%;
+}
+#matrizes h5
+{
+	color: #58585a;
+}
+
+/*Hospedagem*/
+#hospedagem p
+{
+	font-size: 19px;
+	color: #58585a;
+	padding: 100px 30px;
+	line-height: 35px;
+}
+#hospedagem h3
+{
+	margin: 60px 0 40px 0;
+}
+#hospedagem h4
+{
+	color: #ff7f50;
+	font-size: 45px;
+	padding: 20px;
+}
+#hospedagem img
+{
+	width: 100%;
+	margin: 20px;
+}
+#hospeda
+{
+	margin: -20px 0 100px 0;
+}
+/*Adestramento Profissional*/
+#adestramento img
+{
+	width: 100%;
+	margin: 20px;
+}
+#adestramento h3
+{
+	margin: 60px 0 40px 0;
+}
+#adestramento p
+{
+	font-size: 19px;
+	color: #58585a;
+	padding: 100px 30px;
+	line-height: 35px;
+}
+#adestr
+{
+	width: 100%;
+	margin: 20px;
+}
+#video h4
+{
+	color: #ff7f50;
+	font-size: 45px;
+	padding: 20px;
+}
+/*Banho e tosa*/
+#banhotosa h3
+{
+	margin: 60px 0 40px 0;
+}
+#banhotosa p
+{
+	font-size: 19px;
+	color: #58585a;
+	padding: 100px 30px;
+	line-height: 35px;
+}
+#banhotosa img
+{
+	width: 100%;
+	margin: 20px;
+}
+#fotos-banho img
+{
+	width: 100%;
+	margin: 20px;
+}
+/*Depoimentos*/
+#depoimentos h3
+{
+	margin: 60px 0 40px 0;
+}
+/*Galeria*/
+.wrap h3
+{
+	background: #d2e301;
+	color: #58585a;
+	padding: 0 0 20px 0;
+	font-size: 40px;
+}
+.wrap
+{
+   overflow: hidden;
+   margin: 50px 0 0 0;
+   max-width: 1500px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.box {
+    float: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+}
+
+.boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+ .boxInner img
+ { 
+ 	width: 100% 
+ }
+/*-------------teste footer------------*/
+#socialmedia .fa-brands
+{
+	font-size: 35px;
+	color: #58585a;
+	padding: 0 20px;
+}
+/*---footer---*/
+#footer
+{
+	background: #d2e301;
+	padding-top: 30px;
+}
+#footer p
+{
+	font-size: 19px;
+}
+#footer h3
+{
+	color: #58585a;
+}
+.footer-box
+{
+	padding: 20px;
+	width: 120px;
+	color: #58585a;
+}
+.footer-box p
+{
+	margin-bottom: 40px; 
+}
+ul
+{
+	list-style: none;
+	line-height: 30px;
+}
+#footer .links a
+{
+	font-size: 15px;
+	color: #58585a;
+}
+
+.consultoria a
+{
+	color: #58585a;
+}
+.celular
+{
+	font-size: 22px;
+}
+.footer-box img
+{
+	margin-bottom: 10px;
+}
+.footer-box .fa
+{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	color: #58585a;
+}
+#logos_canil
+{
+	padding: 0 0 40px 0;
+}
+/*-------------teste footer------------*/
+/*Footer*/
+/*--
+footer
+{
+background: #d2e301;
+text-align: center;
+color: #58585a;
+margin: 0 0 0 0;
+}
+
+footer h3
+{
+	color: #58585a;
+	padding: 40px 0 100px 0;
+}
+#logos a
+{
+	margin: 5px;
+	width: 70px;
+	height: 70px;
+}
+#logos img
+{
+	width: 70px;
+	height: 70px;
+	margin: -40px 0 0 0px;
+}
+footer p
+{
+	padding: 20px 0;
+	font-size: 19px;
+	text-align: left;
+}
+footer h5
+{
+	color: #58585a;
+	font-size: 19px;
+	text-align: left;
+	padding: 20px 0 0 20px;
+}
+footer .fa-brands
+{
+	font-size: 40px;
+	color: #58585a;
+	float: right;
+	margin: 0 -150px 20px 160px;
+}--*/
+
+/*--section sobre--*/
+#botaosobe
+{
+	background: #fff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #666666;
+}
+#botaosobe p
+{
+	font-size: 20px;
+	line-height: 50px;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-image: linear-gradient(to right, #8c8c8c,#595959); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+/*-------------------------Mobile------------------------*/
+				@media only screen and (max-width:480px) { 
+				    /* Smartphone view: 1 tile */
+				    .box {
+				        width: 100%;
+				        padding-bottom: 100%;
+				    }
+				    .wrap h3
+					{
+						padding: 0 0 10px 0;
+						font-size: 40px;
+						margin-top: 80px;
+					}
+				    .whatsapp-button
+				    {
+						position: fixed;
+						right: 15px; 
+						top: 50px;
+						z-index: 10;
+					}
+				    #ninhadas h4
+				    {
+				    	font-size: 25px;
+				    }
+				    #ninhadas h5
+				    {
+				    	margin: -20px 0;
+				    }
+				    #ninhadas h6
+				    {
+				    	margin: 10px 0 20px 0; 
+				    	padding: 0 0 0 0;
+				    }
+				    #ninhadas img
+				    {
+				    	padding: 10px 0 0 0;
+				    }
+				    #ninhadas-dogue
+				    {
+						background-color: #dedede;
+						padding-top: 20px;
+				    }
+				    #ninhadas-dogue h5
+				    {
+				    	padding: 20px 0 10px 0;
+				    }
+				    #ninhadas-dogue h6
+				    {
+				    	padding: 0 0 10px 0;
+				    }
+				    .versus
+					{
+						color: #58585a;
+						font-size: 100px;
+						font-weight: 500;
+						z-index: 2;
+						margin: -50px 0 0 170px;
+					}
+					#sobre
+					{
+						margin-top: 0;
+						padding-top: 100px;
+					}
+					#botao a
+					{
+						font-size: 19px;
+					}
+					#padreadores img
+					{
+						width: 100%;
+						margin-left: 0;
+						padding: 20px auto;
+						margin-bottom: 20px;
+					}
+					#padreadores h5
+					{
+						padding: 0; 
+					}
+					#padreadores p
+					{
+						padding: 0 0 20px 0; 
+					}
+					#matrizes
+					{
+						color: #58585a;
+					}
+					#matrizes img
+					{
+						width: 100%;
+					}
+					#matrizes h3
+					{
+						margin-bottom: 40px;
+					}
+					#hospedagem p
+					{
+						font-size: 19px;
+						color: #58585a;
+						padding: 20px;
+					}
+					#hospedagem h4
+					{
+						font-size: 40px;
+						padding: 20px;
+					}
+					#hospedagem img
+					{
+						width: 100%;
+						padding: 20px;
+					}
+					#adestramento h3
+					{
+						margin: 40px 0;
+					}
+					#adestramento p
+					{
+						font-size: 19px;
+						color: #58585a;
+						padding: 20px;
+					}
+					#adestramento img
+					{
+						width: 100%;
+						padding: 20px;
+					}
+					#video h4
+					{
+						color: #ff7f50;
+						font-size: 40px;
+						padding: 20px;
+					}
+					#video
+					{
+						padding: 20px;
+					}
+					#adestr img
+					{
+						width: 100%;
+						padding: 20px;
+					}
+					#banhotosa h3
+					{
+						margin: 40px 0;
+					}
+					#banhotosa p
+					{
+						font-size: 19px;
+						color: #58585a;
+						padding: 20px;
+					}
+					#banhotosa img
+					{
+						width: 100%;
+						padding: 20px;
+					}
+					#fotos-banho img
+					{
+						width: 100%;
+						padding: 20px;
+					}
+					#depoimentos img
+					{
+						margin-left: 100px;
+						margin-top: 20px;
+					}
+					#depoimentos p
+					{
+						font-size: 16px;
+						color: #58585a;
+					}
+					#depoimentos h3
+					{
+						margin: 40px 0;
+					}
+					/*#logos img
+					{
+						display: inline-block;
+					}
+					footer h3
+					{ 
+						color: #58585a;
+						font-size: 28px;
+						padding: 20px 0;
+					}
+					footer p
+					{
+						font-size: 18px;
+					}
+					.fa-brands
+					{
+						font-size: 40px;
+						color: #58585a;
+					}*/
+
+				}
+				@media only screen and (max-width:650px) and (min-width:481px) { 
+				    /* Tablet view: 2 tiles */
+				    .box {
+				        width: 50%;
+				        padding-bottom: 50%;
+				    }
+				    .wrap
+				    {
+				    	margin-bottom: -140px;
+				    }
+				    .wrap h3
+					{
+						background: #d2e301;
+						color: #58585a;
+						font-size: 40px;
+						padding: 0 0 10px 0;
+					}
+				    #banner 
+				    {
+				    	padding-bottom: 30%;
+				    }
+				    .patrocinio img
+					{
+						width: 80px;
+						padding: 0;
+					}
+				    .whatsapp-button
+				    {
+						position: fixed;
+						right: 15px; 
+						top: 50px;
+						z-index: 10;
+					}
+				    #filhotes h4
+					{
+						padding: 20px;
+						font-size: 19px;
+						color: #58585a;
+					}
+					#filhotes h5
+					{
+						margin: 20px 0 10px 0;
+					}
+					#filhotes img
+					{
+						margin-bottom: -20px;
+					}
+					#filhotes h6
+					{
+						padding: 0 0 -40px 0;
+						font-size: 16px;
+						color: #58585a;
+					}
+					#ninhadas h2
+					{
+						margin: 10px 0 30px 0;
+						font-size: 16px;
+						color: #58585a.
+					}
+					#ninhadas h4
+				    {
+				    	font-size: 25px;
+				    	padding: 10px 0 10px 0;
+				    	color: #fff;
+				    }
+				    #ninhadas h5
+				    {
+				    	margin: -10px 0 10px 0;
+				    }
+				    #ninhadas h6
+				    {
+				    	margin: 10px 0 20px 0;
+				    }
+				    #ninhadas img
+				    {
+				    	padding: -20px 0 0 0;
+				    }
+				    .espaco img
+				    {
+				    	margin-top: -100px;
+				    }
+				    #ninhadas-dogue
+				    {
+						background-color: #dedede;
+						padding: 20px 0 60px 0;
+						margin: 40px 0 20px 0;
+						width: 100%;
+				    }
+
+				     #ninhadas-dogue h5
+				    {
+				    	padding: 40px 0 0 0;
+				    }
+				    #ninhadas-dogue h6
+				    {
+				    	padding: 0 0 10px 0;
+				    	margin: 20px 0 -50px 0;
+				    }
+				    
+				    .versus
+					{
+						color: #58585a;
+						font-size: 100px;
+						font-weight: 500;
+						z-index: 2;
+						margin: 0 auto 0 200px;
+					}
+					#sobre p
+					{
+						margin: 0 20px;
+					}
+					#sobre h3
+					{
+						margin-top: -130px;
+					}
+					#sobre img
+					{
+						margin: 40px;
+					}
+					#palestraecursos h4
+					{
+						margin-top: -40px;
+					}
+					#botao
+					{
+						background: #ffffff;
+						margin: 50px 0 40px 0;
+					}
+					#botao a
+					{
+						padding-bottom: 50px;
+						padding-top: 100px;
+						font-size: 20px;
+						display: inline-block;
+						background: #2ecc71;
+						color: #fff;
+						padding: 10px 25px;
+						border-radius: 50px;
+					}
+					#palestraecursos p
+					{
+						font-size: 19px;
+						margin: 0 20px;
+					}
+					#palestraecursos h4
+					{
+						color: #ff7f50;
+						font-size: 40px;
+						padding: 20px;
+					}
+					#padreadores img
+					{
+						margin: 20px 0 20px 20px;
+					}
+					.img-padread
+					{
+						width: 90%;
+					}
+					#padreadores h5
+					{
+						margin: 10px 0 0 0;
+					}
+					#padreadores p
+					{
+						margin: 10px 0 20px 0;
+					}
+					.rottweiler 
+					{
+						width: 90%;
+						margin: 20px 0 0 20px;
+					}
+					#matrizes img
+					{
+						width: 100%;
+						padding: 40px 10px 20px 20px;
+					}
+					#matrizes h3
+					{
+						margin: 40px 0 20px 0;
+					}
+					#matrizes h5
+					{
+						color: #58585a;
+					}
+					#hospedagem p
+					{
+						font-size: 19px; 
+						margin: -50px 20px -50px 20px;
+						color: #58585a;
+					}
+					#hospedagem h3
+					{
+						margin: 40px 0;
+					}
+					#hospedagem h4
+					{
+						font-size: 40px;
+						color: #ff7f50;
+						margin: 0 20px 40px 20px;
+					}
+					#hospedagem img
+					{
+						width: 90%;
+						margin-bottom: 20px;
+					}
+					#adestramento h3
+					{
+						margin: 40px 0 10px 0;
+						font-size: 34px;
+						padding: 5px 0 0 0; 
+					}
+					#adestramento img
+					{
+						margin: 20px 0 20px 30px;
+						width: 90%;
+					}
+					#adestramento p
+					{
+						margin: -20px 20px;
+						font-size: 19px;
+						color: #58585a;
+					}
+					#adestr img
+					{
+						width: 90%;
+						margin: 20px 0 20px 10px;
+
+					}
+					#video h4
+					{
+						font-size: 40px;
+						color: #ff7f50;
+						margin: 0 20px 70px 20px;
+					}
+					#video
+					{
+						width: 100%;
+						margin: 100px 20px;
+					}
+					#banhotosa p
+					{
+						font-size: 19px;
+						color: #58585a;
+						line-height: 35px;
+						margin: -60px 20px;
+					}
+					#banhotosa img
+					{
+						margin: 20px;
+						width: 90%;
+					}
+					#fotos-banho img
+					{
+						margin: 20px;
+						width: 90%;
+					}
+					#depoimentos img
+					{
+						margin: 40px 0 0 120px;
+					}
+					#depoimentos p
+					{
+						padding: 20px;
+					}
+					#depoimentos h3
+					{
+						margin: 40px 0 20px 0;
+					}
+					/*contato, #logos
+					{
+						background-color: #d2e301;
+						padding: 10px 0 20px 0;
+					}
+					#contato p
+					{
+						font-size: 19px;
+						margin: -20px 50px 0 50px;
+						text-align: center;
+					}
+					#contato h3
+					{
+						color: #58585a;
+						padding: 50px 0 40px 0;
+					}
+					#contato img
+					{
+						margin: 40px 0 20px 90px;
+					}
+					#contato .address
+					{
+						color: #58585a;
+						font-size: 18px;
+						text-align: left;
+						margin: 40px 20px 0 0;
+					}
+					.fa-brands
+					{
+						font-size: 40px;
+						color: #58585a;
+					}
+					#logos img
+					{
+						display: inline-block;
+						margin: -10px 0 0 130px;
+					}
+					footer
+					{
+						margin: 130px 0 0 0;
+						color: #58585a;
+						text-align: left;
+					}*/
+					#footer
+					{
+						text-align: center;
+						margin-top: 110px;
+					}
+					#logos_canil
+					{
+						padding: 40px 0 40px 0;
+					}
+				}
+				@media only screen and (max-width:1050px) and (min-width:651px) { 
+				    /* Small desktop / ipad view: 3 tiles */
+				    .box {
+				        width: 33.3%;
+				        padding-bottom: 33.3%;
+				    }
+				    .wrap h3
+					{
+						background: #d2e301;
+						color: #58585a;
+						font-size: 40px;
+						padding: 0 0 20px 0;
+					}
+				    #ninhadas img
+				    {
+						width: 100%;
+				    }
+				    #ninhadas h4
+				    {
+				    	font-size: 30px;
+				    }
+				    #ninhadas h5
+				    {
+				    	margin: 20px 0 0 0;
+				    }
+				    #ninhadas h6
+				    {
+				    	margin: 10px 0 30px 0;
+				    }
+				    #ninhadas-dogue
+				    {
+						background-color: #dedede;
+						padding-top: 20px;
+						margin: 20px;
+				    }
+				    #ninhadas-dogue img
+				    {
+				    	width: 100%;
+				    	padding: 50px 0 20px 0;
+				    }
+				    .versus
+					{
+						color: #58585a;
+						font-size: 100px;
+						font-weight: 500;
+						z-index: 2;
+						margin: -50px 0 -40px 190px;
+					}
+					#sobre h3
+					{
+						margin: -120px 0 0 0;
+					}
+
+					#sobre p
+					{
+						margin: 20px;
+						padding: 20px;
+					}
+					#palestraecursos p, h4
+					{
+						margin: 20px;
+					}
+					#botao a
+					{
+						font-size: 20px;
+						margin: 0 0 -20px 0;
+					}
+					.rottweiler
+					{
+						margin: 0 50px 0 0;
+						padding: 0 100px 0 0;
+						box-shadow: none;
+						width: 100%;
+					}
+					#padreadores h2
+					{
+						margin: 0 0 20px 0;
+						color: #58585a;
+					}
+					#padreadores img
+					{
+						padding: 20px 50px 20px 50px;
+					}
+					#matrizes img
+					{
+						margin: 20px 50px 20px 60px;
+					}
+					#matrizes h3
+					{
+						margin: 40px 0 20px 0;
+					}
+					#matrizes h5
+					{
+						color: #58585a;
+					}
+					#hospedagem p
+					{
+						color: #58585a;
+						padding: 20px;
+						font-size: 19px;
+					}
+					#hospedagem h3
+					{
+						margin: 40px 0;
+					}
+					#hospedagem h4
+					{
+						font-size: 37px;
+						color: #ff7f50;
+						margin: 20px;
+						padding: 20px;
+					}
+					#hospedagem img
+					{
+						width: 100%;
+						padding: 20px;
+					}
+					#adestramento h3
+					{
+						margin: 40px 0;
+						padding: 5px 0;
+					}
+					#adestramento p
+					{
+						color: #58585a;
+						font-size: 19px;
+						padding: 20px;
+					}
+					#adestramento img
+					{
+						margin: 40px 40px 20px 40px; 
+					}
+					#adestr img
+					{
+						margin: 20px 60px 20px 110px; 
+					}
+					#video h4 
+					{
+						font-size: 37px;
+						color: #ff7f50;
+						margin: 20px;
+						padding: 20px;
+					}
+					#video
+					{
+						margin: 40px 40px 100px 100px; 
+					}
+					#banhotosa p
+					{
+						font-size: 19px;
+						color: #58585a;
+						line-height: 35px;
+						margin: 40px 20px;
+						padding: 20px;
+					}
+					#banhotosa img
+					{
+						margin: 20px 40px 20px 60px;
+					}
+					#fotos-banho img
+					{
+						margin: 20px 40px 20px 60px;
+					}
+					#depoimentos p,
+					{
+						padding:20px;
+						color: #58585a;
+					}
+					#depoimentos h3
+					{
+						margin: 40px 0 20px 0;
+					}
+					#depoimentos img
+					{
+						margin: 40px 0 0 120px;
+					}
+					
+					/*#contato p
+					{
+						font-size: 18px;
+						margin: 20px 40px 0 30px;
+						text-align: center;
+					}
+					#contato h3
+					{
+						color: #58585a;
+						padding: 50px 0 20px 0;
+					}
+					#contato img
+					{
+						margin: 40px 0 0 200px;
+					}
+					#contato .address
+					{
+						color: #58585a;
+						font-size: 18px;
+						text-align: center;
+						margin: 20px 80px 30px 90px;
+					}
+					.fa-brands
+					{
+						font-size: 40px;
+						color: #58585a;
+					
+					}
+					footer a
+					{
+						width: 50px;
+						height: 50px;
+						padding: 0;
+						margin: 0;
+					}
+
+					footer .logos a
+					{
+						width: 70px;
+						height: 70px;
+					}
+					footer
+					{
+						background: #d2e301;
+						padding: 0 0 40px 0;
+					}*/
+
+				}
+				
