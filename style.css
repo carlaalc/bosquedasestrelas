@@ -398,6 +398,7 @@ width:150px;
 #footer h3
 {
 	color: #ffffff;
+	text-align: center;
 }
 .footer-box
 {
@@ -501,7 +502,7 @@ ul
 					{
 						position: fixed;
 						z-index: 100;
-						right: 150px; 
+						right: 15px; 
 						top: 50px;	
 					}
 					#ninhadas h4
@@ -586,7 +587,8 @@ ul
 					}
 					#hospedagem img
 					{
-						width: 90%;
+						width: 95%;
+						margin: 0 10px 20px 10px;
 					}
 					#hospedagem p
 					{
@@ -650,11 +652,18 @@ ul
 					#footer h3
 					{
 						color: #ffffff;
+						text-align: center;
 					}
 					#footer
 					{
 						background: #d2e301;
 						padding: 30px 0 0 50px;
+					}
+					.footer-box
+					{
+						margin-left: auto;
+						margin-right: auto;
+						text-align: center;
 					}
 					.logos_canil img
 					{
@@ -663,9 +672,9 @@ ul
 				}
 				@media only screen and (max-width:650px) and (min-width:481px) { 
 			    /* Tablet view: 2 tiles */
-				    .box {
-				        width: 50%;
-				        padding-bottom: 50%;
-				    }
-				}
+			    .box {
+			        width: 50%;
+			        padding-bottom: 50%;
+			    }
+			}
 
