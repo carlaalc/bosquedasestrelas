@@ -537,23 +537,27 @@ footer .fa-brands
 				    .wrap h3
 					{
 						padding: 0 0 10px 0;
-						font-size: 40px;
+						font-size: 20px;
 						margin-top: 80px;
 					}
 				    .whatsapp-button
 				    {
 						position: fixed;
-						right: 15px; 
+						right: 30px; 
 						top: 50px;
 						z-index: 10;
 					}
+					#filhotes h3
+					{
+						font-size: 20px;
+					}
 				    #ninhadas h4
 				    {
-				    	font-size: 25px;
+				    	font-size: 20px;
 				    }
 				    #ninhadas h5
 				    {
-				    	margin: -20px 0;
+				    	margin: 10px 0;
 				    }
 				    #ninhadas h6
 				    {
@@ -583,12 +587,24 @@ footer .fa-brands
 						font-size: 100px;
 						font-weight: 500;
 						z-index: 2;
-						margin: -50px 0 0 170px;
+						margin: -50px 0 0 140px;
 					}
 					#sobre
 					{
 						margin-top: 0;
 						padding-top: 100px;
+					}
+					#sobre h3
+					{
+						font-size: 20px;
+					}
+					#sobre p
+					{
+						padding: 0 0 100px 0;
+					}
+					#palestraecursos h4
+					{
+						font-size: 10px;
 					}
 					#botao a
 					{
@@ -620,6 +636,7 @@ footer .fa-brands
 					#matrizes h3
 					{
 						margin-bottom: 40px;
+						font-size: 20px;
 					}
 					#hospedagem p
 					{
@@ -639,7 +656,7 @@ footer .fa-brands
 					}
 					#adestramento h3
 					{
-						margin: 40px 0;
+						margin: 20px 0;
 					}
 					#adestramento p
 					{
